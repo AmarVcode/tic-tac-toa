@@ -7,9 +7,6 @@ function App() {
 
   return (
     <div>
-      <h1>
-        Tic Tac Toa
-      </h1>
       <Board />
     </div>
   )

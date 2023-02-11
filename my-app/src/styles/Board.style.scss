@@ -1,3 +1,25 @@
-button{
-    padding: 1em;
+.board{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid lime;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px lime, inset 0px 0px 10px lime;
+    margin: auto;
+    padding: 10px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    button{
+        background-color: black;
+        border: none;
+    }
+    button:nth-child(1){
+        border-right: 2px solid lime;
+        border-bottom: 2px solid lime;
+    }
+    button:nth-child(2){
+        border-right: 2px solid lime;
+        border-bottom: 2px solid lime;
+    }
 }
